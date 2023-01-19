@@ -1,0 +1,40 @@
+.footer{
+
+    width: 95%;
+    height: 350px;
+    text-align: center;
+
+}
+
+.fLists{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    float: right;
+    
+}
+
+.Flist{
+
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.fListItem{
+
+    text-decoration: none;
+    font-size: 14px;
+    color: #0071C2;
+    cursor: pointer;
+    list-style: none;
+    line-height: 30px;
+}
+
+.fListItem:hover{
+
+    color: orange;
+    transition: 0.5s;
+}
